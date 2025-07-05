@@ -12,21 +12,7 @@ This project demonstrates how to:
 
 ## 📁 Repository Structure
 
-MLflow_FastAPI/
-│
-├── FastAPI/
-│ ├── screenshots/ # UI and results screenshots
-│ ├── fastapi_main.py # Main FastAPI app with 5 GET endpoints
-│ └── requests_script.py # Example client script to test endpoints
-│
-├── MLflow_tracking/
-│ ├── MLflow_notebook.ipynb # Notebook for ML training and MLflow tracking
-│ ├── functions.py # Helper functions for training and logging
-│ └── main.py # Script for model training with MLflow tracking
-│
-└── environment: conda
-
-
+<pre lang="markdown"> ```yaml MLflow_FastAPI/ ├── FastAPI/ │ ├── screenshots/ # UI and results screenshots │ ├── fastapi_main.py # Main FastAPI app with 5 GET endpoints │ └── requests_script.py # Example client script to test endpoints │ ├── MLflow_tracking/ │ ├── MLflow_notebook.ipynb # Notebook for training and MLflow tracking │ ├── functions.py # Helper functions for training/logging │ └── main.py # Script for training and tracking │ └── environment.yml # Conda environment file for reproducibility ``` </pre>
 ---
 
 ## 🧠 MLflow Tracking
