@@ -4,7 +4,7 @@ This project demonstrates how to:
 
 - ✅ Track and log machine learning experiments with **MLflow**  
 - 🌐 Serve a REST API with **FastAPI**  
-- 🤖 Integrate **Hugging Face Transformers Pipelines**  
+- 🤗  Integrate **Hugging Face Transformers Pipelines**  
 - 🔁 Handle multiple GET operations in a modular API  
 - 🧪 Work within a **conda environment** for reproducibility
 
@@ -61,23 +61,6 @@ The `FastAPI` folder includes a modular REST API (`fastapi_main.py`) with **five
 
 ---
 
-## ▶️ Running the Project
-
-### 1. ✅ Clone the repository
-```bash
-git clone https://github.com/your-username/MLflow_FastAPI.git
-cd MLflow_FastAPI
-2. 🐍 Create the conda environment
-conda create -n mlflow_fastapi_env python=3.10
-conda activate mlflow_fastapi_env
-3. 📦 Install dependencies
-pip install -r requirements.txt
-4. 📊 Run MLflow training
-cd MLflow_tracking
-python main.py
-5. 🌐 Launch FastAPI server
-cd ../FastAPI
-uvicorn fastapi_main:app --reload
 📸 Screenshots
 
 Screenshots of Swagger UI and example responses are available in the FastAPI/screenshots/ folder.
